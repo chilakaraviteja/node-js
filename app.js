@@ -1,7 +1,13 @@
-const a = 12
+// importing names and function
 
-if (a < 10) {
-    console.log('small number');
-} else {
-    console.log('large number');
-}
+const { ravi, smiley } = require('./globals')
+const sayHi = require('./utils')
+const items = require('./globals')
+require('./mind-grenade')
+
+// sayHi(ravi)
+// console.log(ravi);
+// console.log(items);
+
+// sayHi(ravi)
+// sayHi(smiley)
